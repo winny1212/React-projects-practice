@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import people from '../data';
-import { FaChevronLeft, FaChevronRight,FaQuoteRight} from "react-icons/go";
+import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
 
 export default function Review() {
     const [index,setIndex] = useState(0);
