@@ -5,7 +5,7 @@ const App = () => {
   return (
     <main>
         <section className='container'>
-            <div class='title'>
+            <div className='title'>
                 <h2>our reviews</h2>
                 <div className='underline'></div>
             </div>
