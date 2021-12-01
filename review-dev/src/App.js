@@ -1,10 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Review from './Components/Review';
 
 const App = () => {
   return (
-    <div >
-          The basic empty template
-    </div>
+    <main>
+        <section className='container'>
+            <div class='title'>
+                <h2>our reviews</h2>
+                <div className='underline'></div>
+            </div>
+            <Review />
+        </section>
+    </main>
   )
 }
 
