@@ -35,7 +35,10 @@ const App = () => {
     setList([])
   }
 
-  
+  const removeItem=(id)=>{
+    setAlert(true,'danger','item remove')
+    setList(list.filter((item)=>item.id !== id))
+  }
   return (
     <section className='section-center'>
       <form className='grocery-form' onSubmit={handleSubmit}>
