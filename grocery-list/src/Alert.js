@@ -1,9 +1,8 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
-export default function Alert() {
+export default function Alert({type,msg}) {
+    
     return (
-        <div>
-            
-        </div>
+        <p className={`alert alert-${type}`}>{msg}</p>
     )
 }
