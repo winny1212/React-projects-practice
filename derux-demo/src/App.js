@@ -12,7 +12,7 @@ function App() {
       </nav>
       <Routes>
         <Route path='/' element={PokemanList} />
-        <Route path='/pokeman/:pokeman' exact element={Pokeman} />
+        <Route path='/pokeman/:pokeman' element={Pokeman} />
       </Routes>
     </div>
   );
